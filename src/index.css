@@ -1,0 +1,23 @@
+.card {
+	border: 2px solid black;
+	margin-top: 0.75rem;
+}
+.card-header {
+	display: flex;
+	justify-content: flex-end;
+}
+button {
+	margin-right: 0.5rem;
+}
+.bg-transparent:hover {
+	background-color: rgb(204, 227, 235) !important;
+}
+.card-text {
+	margin-bottom: 0 !important;
+}
+.pieza-price::after {
+	content: ' €';
+}
+.pieza-valoracion::after {
+	content: ' / 10';
+}
